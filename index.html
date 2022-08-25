@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>  
+    <div class="container">
+        <div class="screen">
+            <input class="row previous" disabled></input>
+            <input class="row active" disabled></input>
+        </div>
+        <div class="buttons">
+            <div class="row">
+                <button class="btn-blue delete">DELETE</button>
+                <button class="btn-red clear">CLEAR</button>
+            </div>
+            <div class="row">
+                <button class="screen-enabled number" value="7">7</button>
+                <button class="screen-enabled number" value="8">8</button>
+                <button class="screen-enabled number" value="9">9</button>
+                <button class="screen-enabled operation" value="+">&plus;</button>
+                <button class="screen-enabled operation" value="-">&minus;</button>
+            </div>
+            <div class="row">
+                <button class="screen-enabled number" value="4">4</button>
+                <button class="screen-enabled number" value="5">5</button>
+                <button class="screen-enabled number" value="6">6</button>
+                <button class="screen-enabled operation" value="÷">&divide;</button>
+                <button class="screen-enabled operation" value="×">&times;</button>
+            </div>
+            <div class="row">
+                <button class="screen-enabled number" value="1">1</button>
+                <button class="screen-enabled number" value="2">2</button>
+                <button class="screen-enabled number" value="3">3</button>
+                <button class="screen-enabled bracket" value="(">&lpar;</button>
+                <button class="screen-enabled bracket" value=")">&rpar;</button>
+            </div>
+            <div class="row">
+                <button class="screen-enabled decimal" value=".">&period;</button>
+                <button class="screen-enabled number" value="0">0</button>
+                <button class="screen-enabled operation" value="^">&Hat;</button>
+                <button class="screen-enabled operation" value="%">&percnt;</button>
+                <button class="operation equals">&equals;</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>
